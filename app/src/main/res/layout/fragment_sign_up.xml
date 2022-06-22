@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:hint="Enter FirstName"
+
+            android:paddingLeft="20dp"
+
+            android:paddingBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.388"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".78" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="8dp"
+            android:hint="Enter LastName"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.388"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+            app:layout_constraintWidth_percent=".78" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="116dp"
+
+            android:hint="Enter email"
+
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.388"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".78" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="176dp"
+
+            android:hint="Enter PhoneNo"
+
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.388"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".78" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="232dp"
+
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.388"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".78" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword3"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="288dp"
+
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.388"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".78" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/btn_color"
+            android:ems="10"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textColorHint="#F10A6D"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword3"
+            app:layout_constraintWidth_percent=".78" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

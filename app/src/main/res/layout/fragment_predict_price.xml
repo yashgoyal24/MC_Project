@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PredictPriceFragment"
+        android:orientation="vertical"
+        android:id="@+id/predictPriceFrag">
+
+
+
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10sp"
+            android:hint="Model"
+            android:id="@+id/model"/>
+
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10sp"
+            android:hint="Year"
+            android:id="@+id/year"/>
+
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10sp"
+            android:hint="Transmission"
+            android:id="@+id/transmission"/>
+
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10sp"
+            android:hint="Kilometres Travelled"
+            android:id="@+id/mileage"/>
+
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10sp"
+            android:hint="Fuel Type"
+            android:id="@+id/fuelType"/>
+
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10sp"
+            android:hint="Mileage in miles/gallon"
+            android:id="@+id/mpg"/>
+
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10sp"
+            android:hint="Engine Size"
+            android:id="@+id/engineSize"/>
+
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10sp"
+            android:hint="Car Brand"
+            android:id="@+id/type"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10sp"
+            android:text="Predict Price"
+            android:id="@+id/btnPredict">
+        </Button>
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/tvPrice"
+            android:textSize="25sp"
+            android:textColor="@color/teal_700"
+            android:layout_marginTop="10sp"
+            android:text="Predicted Price: "
+            android:layout_marginBottom="50sp"/>
+
+
+    </LinearLayout>
+</ScrollView>

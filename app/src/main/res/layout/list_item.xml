@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+<ImageView android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/imageView"
+    />
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="30sp">
+
+       <LinearLayout android:layout_height="wrap_content"
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           >
+           <TextView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="BRAND:"
+               android:textSize="15sp"
+               android:textStyle="bold"/>
+           <TextView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="brand_name"
+               android:id="@+id/brand"
+               android:layout_marginStart="10sp"
+               android:textSize="15sp"
+               android:textStyle="bold"/>
+           <TextView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="YEAR"
+               android:layout_marginStart="20sp"
+               android:textSize="15sp"
+               android:textStyle="bold"/>
+           <TextView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="year"
+               android:layout_marginStart="10sp"
+               android:textSize="15sp"
+               android:id="@+id/year"
+               android:textStyle="bold"/>
+       </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FUEL"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="petrol"
+                android:layout_marginStart="10sp"
+                android:textSize="15sp"
+                android:id="@+id/fuel"
+                android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:text="TRANSMISSION:"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="manual"
+                android:layout_marginStart="10sp"
+                android:textSize="15sp"
+                android:id="@+id/transmission"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DISTANCE"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="distance"
+                android:layout_marginStart="10sp"
+                android:id="@+id/distance"
+                android:textSize="15sp"
+
+                android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MILEAGE"
+                android:layout_marginStart="10sp"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mileage"
+                android:layout_marginStart="10sp"
+                android:textSize="15sp"
+                android:id="@+id/mileage"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

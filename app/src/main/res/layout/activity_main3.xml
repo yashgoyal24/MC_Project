@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ExploreFragment"
+    android:background="@color/black">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <View
+        android:id="@+id/white"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="15dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+
+        android:background="@drawable/white" />
+
+    <View
+        android:id="@+id/red"
+        android:layout_width="15dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/white"
+        android:background="@drawable/red" />
+    <View
+        android:id="@+id/white1"
+
+
+        android:layout_width="15dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/red"
+        android:background="@drawable/white" />
+    <View
+        android:id="@+id/red1"
+
+        android:layout_width="15dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/white1"
+        android:background="@drawable/red" />
+
+    <View
+        android:id="@+id/blue"
+        android:layout_width="15dp"
+        android:layout_height="148dp"
+        android:layout_marginLeft="54dp"
+        android:layout_toRightOf="@+id/red"
+        android:background="@drawable/blue" />
+
+    <View
+        android:id="@+id/yellow"
+        android:layout_width="15dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/blue"
+        android:background="@drawable/yellow" />
+
+    <View
+        android:id="@+id/pink"
+        android:layout_width="15dp"
+        android:layout_height="260dp"
+        android:layout_marginLeft="9dp"
+        android:layout_toRightOf="@+id/yellow"
+        android:background="@drawable/pink" />
+
+    <View
+        android:id="@+id/white2"
+
+
+        android:layout_width="15dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/pink"
+        android:background="@drawable/white" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+                android:id="@+id/image_view_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="111dp"
+            android:src="@drawable/logo">
+
+        </ImageView>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_next"
+                android:layout_width="600dp"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="43dp"
+                android:background="@drawable/btn_color"
+                android:paddingLeft="40dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:textColorHint="#F10A6D"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>

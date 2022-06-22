@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "486354836377",
+    "project_id": "carbuysell-60e5a",
+    "storage_bucket": "carbuysell-60e5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486354836377:android:63823f53dad93f8c125108",
+        "android_client_info": {
+          "package_name": "com.mc2022.template"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486354836377-8gu3di4t07tde7mtjnjrtbpcarhah6lj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyUbx-xYth-4J5Zs3ID19U3p9S_uVHm8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486354836377-8gu3di4t07tde7mtjnjrtbpcarhah6lj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
